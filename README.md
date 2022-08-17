@@ -1,35 +1,38 @@
-[](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Space Travellers Hub
+# Project Name: Hello world" project with two apps (Front-end)
 
-
-> Real live data from the SpaceX API, this is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space greetings.
+> This project implements a connection the React front-end
 
 
 ## Built With
 
-- Technologies used: React
-
-## Live Demo (if available)
-
-[Live Demo]()
+- React
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+- Clone Repository using
+`git clone https://github.com/NeckerFree/hello-react-front-end`
+- Move into project directory
+`cd hello-react-front-end`
 
-### Setup
-- Click the green `Code` button on the repo
-- In your local PC, open your terminal in the folder you would like to clone the project.
-- Clone the repo with the command: `git clone (copied link)`; like so: `git clone https://github.com/NeckerFree/hello-react-front-end`
-- On the terminal, navigate into the directory like so: `cd hello-react-front-end`
+### Run API 
+- Located in the root path run `rails server` to start the API
+- Visit http://localhost:3000/ in your browser!
+- Navigate to http://localhost:3000/api/v1/greetings to see random Greeting in the API
 
-### Install
-in visual studio code
--  run the command `npm install` to install all the necessary dependencies
--  run the command `npm start` to start the app.
+### Run APP 
+- Ensure that API (http://localhost:3000/api/v1/greetings) is running  
+- run `npm i` to install dependencies
+. run `npm start` to start the React App:
+- The app ask to select a different port:
+    -  `Something is already running on port 3000`
+    -  `Would you like to run the app on another port instead? » (Y/n)`
+- Enter `Y` and the app open in the browser in next free port, for example:
+- http://localhost:3001/    
 
-## Authors
+## Author
 
 👤 **Elio Cortés**
 
@@ -37,18 +40,23 @@ in visual studio code
 - Twitter: [@ElioCortesM](https://twitter.com/ElioCortesM)
 - LinkedIn: [elionelsoncortes](https://www.linkedin.com/in/elionelsoncortes/)
 
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/NeckerFree/hello-react-front-end/issues).
-
-## Acknowledgments
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
